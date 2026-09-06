@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import './hero-fix.css'
 
 function App() {
   const [loaded, setLoaded] = useState(false)

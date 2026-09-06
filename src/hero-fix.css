@@ -1,0 +1,10 @@
+.hero-content{width:min(100%,820px)}
+.hero h1{font-size:clamp(3.8rem,7.4vw,8.6rem);max-width:100%;}
+.hero h1 .line{max-width:100%;}
+.hero h1 .line:nth-child(3) span{font-size:clamp(3.2rem,6.8vw,7.8rem)}
+.typing-heading .line{max-width:100%;}
+@media (max-width:800px){
+  .hero-content{width:100%;max-width:100%;}
+  .hero h1{font-size:clamp(3rem,13vw,5.8rem);}
+  .hero h1 .line:nth-child(3) span{font-size:clamp(2.65rem,10.8vw,5rem)}
+}
